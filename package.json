@@ -1,0 +1,16 @@
+{
+  "name": "logcraft",
+  "version": "1.0.0",
+  "description": "LogCraft SIEM Simulation Lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

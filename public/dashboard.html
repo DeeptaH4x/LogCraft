@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogCraft Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Security Monitoring Console</h1>
+
+<button onclick="generateAssets()">Generate Sample Assets</button>
+<button onclick="collectLogs()">Collect Logs</button>
+
+<h2>Assets</h2>
+
+<form onsubmit="addAsset(); return false;">
+    <input id="name" placeholder="Name">
+    <input id="type" placeholder="Type">
+    <input id="criticality" placeholder="Criticality">
+    <input id="risk" placeholder="Risk">
+    <input id="owner" placeholder="Owner">
+    <input id="environment" placeholder="Environment">
+    <button type="submit">Add Asset</button>
+</form>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Criticality</th>
+            <th>Risk</th>
+            <th>Owner</th>
+            <th>Environment</th>
+        </tr>
+    </thead>
+    <tbody id="assetTable"></tbody>
+</table>
+
+<script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogCraft Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h1>LogCraft</h1>
+
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <h3>Attack Simulation</h3>
+    <button onclick="simulate('sql')">SQL Injection</button>
+    <button onclick="simulate('bruteforce')">Brute Force</button>
+    <button onclick="simulate('xss')">XSS</button>
+
+    <div id="status"></div>
+</div>
+
+<script src="client.js"></script>
+</body>
+</html>

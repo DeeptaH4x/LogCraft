@@ -1,0 +1,77 @@
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #111827;
+    padding: 20px;
+    border-bottom: 1px solid #334155;
+}
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.stat-card {
+    flex: 1;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.inventory-section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e293b;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 6px;
+    width: 300px;
+}
+
+input, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.attack-section {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.asset-actions {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
